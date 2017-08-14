@@ -1,3 +1,4 @@
+To install the software chmod autogen.sh, configure
 Run ./autogen.sh
 Then run ./configure && make && make install as superuser.
 
