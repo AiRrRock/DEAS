@@ -2,9 +2,7 @@
   DEAS (Data Edeting ASsistant - a free GUI software to simpify use of sed,grep awk commands for data modifications 
 	Copyright (C) 2016-2017  Alexander Borichev
   
-  This file is a part of DEAS
-  
-	DEAS is free software: you can redistribute it and/or modify
+  DEAS is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   any later version.
