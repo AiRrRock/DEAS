@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Preset &ndash; DEAS &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">Preset &ndash; DEAS Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">DEAS</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="class">Preset</li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="static_method"><a href="Preset.loadPreset.html">loadPreset</a></li>
+          <li class="static_method"><a href="Preset.savePreset.html">savePreset</a></li>
+          <li class="creation_method"><a href="Preset.Preset.html">Preset</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">Preset</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Object Hierarchy:</h2>
+        <img class="main_diagram" usemap="#Preset" alt="Object hierarchy for Preset" src="img/Preset.png"/>
+
+      <map id="Preset" name="Preset">
+<area shape="rect" id="node1" href="Preset.html" title="Preset" alt="" coords="5,5,77,53"/>
+</map>
+
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">class</span> <b><span class="class">Preset</span></b>
+        </div>
+        <div class="description">
+          <p>Static class for saving and loading of <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a></p>
+          <h2>Short Description </h2>
+          <p>Static class useed to save/load <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a> and and serialize/deserialize 
+            <a href="DEAS.html" class="class">DEAS</a> instance</p>
+        </div><br/>
+        <div class="package_note"><b>Package:</b> <a href="index.htm">DEAS</a>
+        </div>
+        <h2 class="main_title">Content:</h2>
+        <h3 class="main_title">Static methods:</h3>
+        <ul class="navi_inline">
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> <b><a href="Preset.savePreset.html" class="static_method">savePreset</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> fileToWriteToPath, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> softwareVersion, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> columnOrderCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOldSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOrder, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderNewSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> columnEditorExtraCol, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> decimalDelimiterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> decDelTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> wordEditorCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChange, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChangeTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> dateFormatterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> sourceDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> resultDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> endOfLineCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> endOfLineToCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> encodingCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeFromEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeToEntry)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Static method to serialize <a href="DEAS.html" class="class">DEAS</a> 
+                instanse into file</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> <b><a href="Preset.loadPreset.html" class="static_method">loadPreset</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> fileToReadPath, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> softwareVersion, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> columnOrderCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOldSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOrder, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderNewSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> columnEditorExtraCol, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> decimalDelimiterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> decDelTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> wordEditorCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChange, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChangeTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> dateFormatterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> sourceDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> resultDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> endOfLineCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> endOfLineToCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> encodingCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeFromEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeToEntry)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Static method to deserialize <a href="DEAS.html" class="class">DEAS
+                </a> instanse into file</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Creation methods:</h3>
+        <ul class="navi_inline">
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="Preset.Preset.html" class="creation_method">Preset</a></b> ()
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+        </ul>
+      </div>
+    </div><br/>
+    <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+    </div>
+  </body>
+</html>

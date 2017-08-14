@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>SedRegExp &ndash; DEAS &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">SedRegExp &ndash; DEAS Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">DEAS</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="class">SedRegExp</li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="static_method"><a href="SedRegExp.changeSize.html">changeSize</a></li>
+          <li class="static_method"><a href="SedRegExp.changeToComma.html">changeToComma</a></li>
+          <li class="static_method"><a href="SedRegExp.changeToDot.html">changeToDot</a></li>
+          <li class="static_method"><a href="SedRegExp.escapeString.html">escapeString</a></li>
+          <li class="static_method"><a href="SedRegExp.genDateChange.html">genDateChange</a></li>
+          <li class="static_method"><a href="SedRegExp.genDateSearch.html">genDateSearch</a></li>
+          <li class="static_method"><a href="SedRegExp.genDateSearchPart.html">genDateSearchPart</a></li>
+          <li class="static_method"><a href="SedRegExp.genOrder.html">genOrder</a></li>
+          <li class="static_method"><a href="SedRegExp.genOrderPart.html">genOrderPart</a></li>
+          <li class="static_method"><a href="SedRegExp.genResultOrder.html">genResultOrder</a></li>
+          <li class="static_method"><a href="SedRegExp.hasLongYear.html">hasLongYear</a></li>
+          <li class="static_method"><a href="SedRegExp.reformatDate.html">reformatDate</a></li>
+          <li class="static_method"><a href="SedRegExp.replaceDecimalDelimiter.html">replaceDecimalDelimiter</a></li>
+          <li class="static_method"><a href="SedRegExp.replaceWords.html">replaceWords</a></li>
+          <li class="static_method"><a href="SedRegExp.simpleOrder.html">simpleOrder</a></li>
+          <li class="creation_method"><a href="SedRegExp.SedRegExp.html">SedRegExp</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">SedRegExp</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Object Hierarchy:</h2>
+        <img class="main_diagram" usemap="#SedRegExp" alt="Object hierarchy for SedRegExp" src="img/SedRegExp.png"/>
+
+      <map id="SedRegExp" name="SedRegExp">
+<area shape="rect" id="node1" href="SedRegExp.html" title="SedRegExp" alt="" coords="69,101,180,149"/>
+<area shape="rect" id="node2" href="../gobject-2.0/GLib.Object.html" title="GLib.Object" alt="" coords="5,5,121,53"/>
+<area shape="rect" id="node3" href="RegExp.html" title="RegExp" alt="" coords="146,5,229,53"/>
+</map>
+
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">class</span> <b><span class="class">SedRegExp</span></b> : <span class="main_type"><a href="../gobject-2.0/GLib.Object.html" class="class">Object</a></span>, <span class="main_type"><a href="RegExp.html" class="interface">RegExp</a></span>
+        </div>
+        <div class="description">
+          <p>Static class for generation SED specific regular expressions</p>
+          <h2>Short Description </h2>
+          <p>Used to generate SED specific regular expressions, <br/>escape SED specific special characters</p>
+        </div><br/>
+        <div class="package_note"><b>Package:</b> <a href="index.htm">DEAS</a>
+        </div>
+        <h2 class="main_title">Content:</h2>
+        <h3 class="main_title">Static methods:</h3>
+        <ul class="navi_inline">
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.replaceDecimalDelimiter.html" class="static_method">replaceDecimalDelimiter</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> changeTo)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Generate regular expression to change decimal delimiter</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.replaceWords.html" class="static_method">replaceWords</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> change, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> changeTo)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Generate regular expression to replace words, simbols in text</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.reformatDate.html" class="static_method">reformatDate</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDF, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDS, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDT, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceSep, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDF, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDS, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDT, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultSep, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> prefix = <span class="main_literal">""</span>)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Generate regular expression to reformat date</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.genDateSearch.html" class="static_method">genDateSearch</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> firstDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> secondDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> thirdDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> separator)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.reformatDate.html" class="static_method">SedRegExp.reformatDate</a>, used to generate search part of regular 
+                expression to reformat date</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.genDateSearchPart.html" class="static_method">genDateSearchPart</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> part)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateSearch.html" class="static_method">SedRegExp.genDateSearch</a></span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.genDateChange.html" class="static_method">genDateChange</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDF, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDS, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> sourceDT, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDF, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDS, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDT, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> dateSep, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> prefix)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.reformatDate.html" class="static_method">SedRegExp.reformatDate</a>, used to generate replace part of regular 
+                expression to reformat date</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] <b><a href="SedRegExp.simpleOrder.html" class="static_method">simpleOrder</a></b> (<span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] sourceOrder, <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] resultOrder)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateChange.html" class="static_method">SedRegExp.genDateChange</a>, used to generate correct replacement order
+              </span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] <b><a href="SedRegExp.genResultOrder.html" class="static_method">genResultOrder</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDF, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDS, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> resultDT)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateChange.html" class="static_method">SedRegExp.genDateChange</a>, used to generate result date order</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] <b><a href="SedRegExp.genOrder.html" class="static_method">genOrder</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> firstDatePart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> secondDatePart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> thirdDatePart)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateChange.html" class="static_method">SedRegExp.genDateChange</a>, used to generate date order from three 
+                strings</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span> <b><a href="SedRegExp.genOrderPart.html" class="static_method">genOrderPart</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> datePart)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genOrder.html" class="static_method">SedRegExp.genOrder</a>, used to generate part of date order</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] <b><a href="SedRegExp.changeSize.html" class="static_method">changeSize</a></b> (<span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] shortArray, <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> hasLongYear)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateChange.html" class="static_method">SedRegExp.genDateChange</a>, used to turn short int arrays into long int 
+                arrays</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> <b><a href="SedRegExp.hasLongYear.html" class="static_method">hasLongYear</a></b> (<span class="main_basic_type"><a href="../glib-2.0/int.html" class="struct">int</a></span>[] order)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.genDateChange.html" class="static_method">SedRegExp.genDateChange</a>, used to determine whether date has long 
+                year(YYYY) format</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.escapeString.html" class="static_method">escapeString</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> inputString)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Escape instrument specific special characters</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.changeToComma.html" class="static_method">changeToComma</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.replaceDecimalDelimiter.html" class="static_method">SedRegExp.replaceDecimalDelimiter</a></span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="SedRegExp.changeToDot.html" class="static_method">changeToDot</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="SedRegExp.replaceDecimalDelimiter.html" class="static_method">SedRegExp.replaceDecimalDelimiter</a></span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Creation methods:</h3>
+        <ul class="navi_inline">
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="SedRegExp.SedRegExp.html" class="creation_method">SedRegExp</a></b> ()
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+        </ul>
+        <h3 class="main_title">Inherited Members:</h3>
+        <div class="box">
+          <div class="headline" onclick="toggle_box (this, 'box-content-2120')">All known members inherited from class GLib.Object</div>
+          <div class="content" id="box-content-2120">
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="static_method"><a href="../gobject-2.0/GLib.Object.@new.html">@new</a></li>
+                <li class="static_method"><a href="../gobject-2.0/GLib.Object.new_valist.html">new_valist</a></li>
+                <li class="static_method"><a href="../gobject-2.0/GLib.Object.newv.html">newv</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.add_toggle_ref.html">add_toggle_ref</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.add_weak_pointer.html">add_weak_pointer</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.bind_property.html">bind_property</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.connect.html">connect</a></li>
+                <li class="virtual_method"><a href="../gobject-2.0/GLib.Object.constructed.html">constructed</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.disconnect.html">disconnect</a></li>
+                <li class="virtual_method"><a href="../gobject-2.0/GLib.Object.dispose.html">dispose</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.dup_data.html">dup_data</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.dup_qdata.html">dup_qdata</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.freeze_notify.html">freeze_notify</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.@get.html">@get</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="method"><a href="../gobject-2.0/GLib.Object.get_class.html">get_class</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.get_data.html">get_data</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.get_property.html">get_property</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.get_qdata.html">get_qdata</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.get_type.html">get_type</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.notify_property.html">notify_property</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.@ref.html">@ref</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.ref_sink.html">ref_sink</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.replace_data.html">replace_data</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.replace_qdata.html">replace_qdata</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.remove_toggle_ref.html">remove_toggle_ref</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.remove_weak_pointer.html">remove_weak_pointer</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.@set.html">@set</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="method"><a href="../gobject-2.0/GLib.Object.set_data.html">set_data</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.set_data_full.html">set_data_full</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.set_property.html">set_property</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.set_qdata.html">set_qdata</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.set_qdata_full.html">set_qdata_full</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.steal_data.html">steal_data</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.steal_qdata.html">steal_qdata</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.thaw_notify.html">thaw_notify</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.unref.html">unref</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.weak_ref.html">weak_ref</a></li>
+                <li class="method"><a href="../gobject-2.0/GLib.Object.weak_unref.html">weak_unref</a></li>
+                <li class="signal"><a href="../gobject-2.0/GLib.Object.notify.html">notify</a></li>
+                <li class="field"><a href="../gobject-2.0/GLib.Object.ref_count.html">ref_count</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="headline" onclick="toggle_box (this, 'box-content-2121')">All known members inherited from interface RegExp</div>
+          <div class="content" id="box-content-2121">
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="static_method"><a href="RegExp.escapeString.html">escapeString</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="static_method"><a href="RegExp.escapeSpaces.html">escapeSpaces</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="navi_inline">
+                <li class="static_method"><a href="RegExp.toCharArray.html">toCharArray</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br/>
+    <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+    </div>
+  </body>
+</html>

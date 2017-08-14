@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Preset.savePreset &ndash; DEAS &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">Preset.savePreset &ndash; DEAS Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">DEAS</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="class"><a href="Preset.html">Preset</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="static_method"><a href="Preset.loadPreset.html">loadPreset</a></li>
+          <li class="static_method">savePreset</li>
+          <li class="creation_method"><a href="Preset.Preset.html">Preset</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">savePreset</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> <b><span class="static_method">savePreset</span></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> fileToWriteToPath, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> softwareVersion, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> columnOrderCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOldSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderOrder, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> colOrderNewSep, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> columnEditorExtraCol, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> decimalDelimiterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> decDelTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> wordEditorCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChange, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> wordToChangeTo, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> dateFormatterCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> sourceDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> sourceDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDFCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDSCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> resultDTCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> resultDSepEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> endOfLineCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">ComboBoxText</a></span> endOfLineToCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">CheckButton</a></span> encodingCB, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeFromEntry, <span class="main_type"><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Entry</a></span> encodingChangeToEntry)
+        </div>
+        <div class="description">
+          <p>Static method to serialize <a href="DEAS.html" class="class">DEAS</a> instanse into file</p>
+          <h2>Short Desciption </h2>
+          <p>Static method to serialize state of <a href="DEAS.html" class="class">DEAS</a> instanse into 
+            <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a></p>
+          <h2 class="main_title">Parameters:</h2>
+          <table class="main_parameter_table">
+            <tr>
+              <td class="main_parameter_table_name">fileToWriteToPath</td>
+              <td>
+                <p>path to <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a> </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">softwareVersion</td>
+              <td>
+                <p>current version of software </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">columnOrderCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determine whether to change or not to change 
+                  Colum Order </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">colOrderOldSep</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> old column separator </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">colOrderOrder</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> comma separated column order </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">colOrderNewSep</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> new column separator </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">columnEditorExtraCol</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> extra column </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">decimalDelimiterCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determinr whether to change or not to change 
+                  Decimal Delimiter </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">decDelTo</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> new decimal delimiter </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">wordEditorCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determine whether to change or not to change 
+                  words </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">wordToChange</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> word to replace </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">wordToChangeTo</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> word to replace to </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">dateFormatterCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determinr whether to change or not to change 
+                  date format </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">sourceDFCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> first part of source date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">sourceDSCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> second part of source date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">sourceDTCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> third part of source date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">sourceDSepEntry</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> source date separator </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">resultDFCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> first part of result date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">resultDSCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> second part of result date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">resultDTCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> third part of result date </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">resultDSepEntry</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> result date separator </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">endOfLineCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determinr whether to change or not to change 
+                  end of line </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">endOfLineToCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.ComboBoxText.html" class="class">Gtk.ComboBoxText</a> end of line to change to </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">encodingCB</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.CheckButton.html" class="class">Gtk.CheckButton</a> used to determinr whether to change or not to change 
+                  file encoding </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">encodingChangeFromEntry</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> encoding to change from </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="main_parameter_table_name">encodingChangeToEntry</td>
+              <td>
+                <p><a href="../gtk+-3.0/Gtk.Entry.html" class="class">Gtk.Entry</a> encoding to change from </p>
+              </td>
+            </tr>
+          </table>
+          <h2 class="main_title">Returns:</h2>
+          <table class="main_parameter_table">
+            <tr>
+              <td>
+                <p><b>true</b> if <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a> was saved sucessfully<br/><b>false</b> if 
+                  <a href="../glib-2.0/GLib.KeyFile.html" class="class">GLib.KeyFile</a> was not seved </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div><br/>
+    <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+    </div>
+  </body>
+</html>
