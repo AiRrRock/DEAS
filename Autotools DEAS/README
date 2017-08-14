@@ -1,0 +1,3 @@
+Run ./autogen.sh
+Then run ./configure && make && make install as superuser.
+

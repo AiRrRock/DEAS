@@ -1,0 +1,15 @@
+AC_PREREQ([2.65])
+AC_INIT([DEAS],[1.0],[anymail@anywhere.com])
+AC_CONFIG_MACRO_DIR([m4])
+AM_INIT_AUTOMAKE
+AC_CONFIG_FILES([Makefile
+		src/Makefile])
+LT_INIT
+AC_PROG_CC
+AM_PROG_VALAC([0.33.6],,)
+DEAS_modules="gtk+-3.0 >= 3.22.3"
+DEAS_pakages="--pkg gtk+-3.0"
+PKG_CHECK_MODULES(DEAS, [$DEAS_modules])
+AC_SUBST(DEAS_CFLAGS)
+AC_SUBST(DEAS_LIBS)
+AC_OUTPUT
