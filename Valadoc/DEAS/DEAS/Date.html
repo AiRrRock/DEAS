@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Date &ndash; DEAS &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">Date &ndash; DEAS Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">DEAS</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="class">Date</li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="constant"><a href="Date.DATE.html">DATE</a></li>
+          <li class="constant"><a href="Date.DEFAULT_SEP.html">DEFAULT_SEP</a></li>
+          <li class="constant"><a href="Date.MONTH.html">MONTH</a></li>
+          <li class="constant"><a href="Date.MONTH_LIT.html">MONTH_LIT</a></li>
+          <li class="constant"><a href="Date.YEAR_YY.html">YEAR_YY</a></li>
+          <li class="constant"><a href="Date.YEAR_YYYY.html">YEAR_YYYY</a></li>
+          <li class="static_method"><a href="Date.generateVisibleDate.html">generateVisibleDate</a></li>
+          <li class="static_method"><a href="Date.getVisiblePart.html">getVisiblePart</a></li>
+          <li class="static_method"><a href="Date.hasLongYear.html">hasLongYear</a></li>
+          <li class="creation_method"><a href="Date.Date.html">Date</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">Date</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Object Hierarchy:</h2>
+        <img class="main_diagram" usemap="#Date" alt="Object hierarchy for Date" src="img/Date.png"/>
+
+      <map id="Date" name="Date">
+<area shape="rect" id="node1" href="Date.html" title="Date" alt="" coords="5,5,77,53"/>
+</map>
+
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">class</span> <b><span class="class">Date</span></b>
+        </div>
+        <div class="description">
+          <p>Static class used for date representation</p>
+          <h2>Short Description </h2>
+          <p>Used to generate visible date representation for GUI <br/>checks if the date has long year(YYYY) format</p>
+        </div><br/>
+        <div class="package_note"><b>Package:</b> <a href="index.htm">DEAS</a>
+        </div>
+        <h2 class="main_title">Content:</h2>
+        <h3 class="main_title">Constants:</h3>
+        <ul class="navi_inline">
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.DATE.html" class="constant">DATE</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.MONTH.html" class="constant">MONTH</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.MONTH_LIT.html" class="constant">MONTH_LIT</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.YEAR_YY.html" class="constant">YEAR_YY</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.YEAR_YYYY.html" class="constant">YEAR_YYYY</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+          <li class="constant"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">const</span> <span class="main_keyword">unowned</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.DEFAULT_SEP.html" class="constant">DEFAULT_SEP</a></b>
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+        </ul>
+        <h3 class="main_title">Static methods:</h3>
+        <ul class="navi_inline">
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.generateVisibleDate.html" class="static_method">generateVisibleDate</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> firstDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> secondDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> thirdDPart, <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> separator)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Generate visual representation of date format</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/bool.html" class="struct">bool</a></span> <b><a href="Date.hasLongYear.html" class="static_method">hasLongYear</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> someDPart)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Check if the date has long year(YYYY) format</span>
+            </div></li>
+          <li class="static_method"><span class="leaf_code_definition"><span class="main_keyword">private</span> <span class="main_keyword">static</span> <span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> <b><a href="Date.getVisiblePart.html" class="static_method">getVisiblePart</a></b> (<span class="main_basic_type"><a href="../glib-2.0/string.html" class="class">string</a></span> someDPart)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Auxiliary method of 
+                <a href="Date.generateVisibleDate.html" class="static_method">Date.generateVisibleDate</a></span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Creation methods:</h3>
+        <ul class="navi_inline">
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="Date.Date.html" class="creation_method">Date</a></b> ()
+            </span>
+            <div class="leaf_brief_description">
+            </div></li>
+        </ul>
+      </div>
+    </div><br/>
+    <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+    </div>
+  </body>
+</html>
